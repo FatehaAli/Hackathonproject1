@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume Form</h1>
+    <form id="resumeForm">
+        <!-- Personal Information -->
+        <h2>Personal Information</h2>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Ali Jawad"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="alijawad@example.com"><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="+923156789453"><br>
+
+        <label for="github">GitHub URL:</label>
+        <input type="url" id="github" name="github" placeholder="https://github.com/alijawad"><br>
+
+        <label for="linkedin">LinkedIn URL:</label>
+        <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/ali-jawad"><br>
+        
+        <!-- Education -->
+        <h2>Education</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree" required placeholder="Bachelor in Computer Science"><br>
+
+        <label for="university">University:</label>
+        <input type="text" id="university" name="university" required placeholder="University of Karachi"><br>
+
+        <label for="semester">Semester:</label>
+        <input type="text" id="semester" name="semester" required placeholder="1st Semester"><br>
+
+        <!-- Job Experience -->
+        <h2>Work Experience</h2>
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" required placeholder="Senior Developer"><br>
+
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="companyName" required placeholder="iTech Dev"><br>
+
+        <label for="jobDuration">Duration:</label>
+        <input type="text" id="jobDuration" name="jobDuration" required placeholder="Aug'24 - Nov'24"><br>
+
+        <label for="jobDesc">Job Description:</label>
+        <textarea id="jobDesc" name="jobDesc" placeholder="Description of yor job role here"></textarea><br>
+
+        <!-- Skills -->
+        <h2>Skills</h2>
+        <label for="skills">Technical Skills:</label>
+        <input type="text" id="skills" name="skills" required placeholder="HTML, CSS, TypeScript"><br>
+
+        <button type="submit">Generate</button>
+    </form>
+<!-- -------------------------------------- -->
+    <div id="resumeContainer"></div>
+<!-- -------------------------------------- -->
+    <script src="app.js"></script>
+</body>
+</html>
+
+    
